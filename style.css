@@ -1,0 +1,63 @@
+
+#main {
+  height: 300px;
+  width: 600px;
+  background: linear-gradient(45deg, rgb(34, 98, 125), rgb(120, 35, 144));
+  margin:100px auto;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  margin-left: 50px;
+  color: yellowgreen;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea {
+  margin-left: 50px;
+  width: 400px;
+  height: 150px;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: linear-gradient(green, yellowgreen);
+  margin-left: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+button:hover {
+  background: linear-gradient(rgb(147, 88, 88), darkred); /* Ensure consistent background property */
+}
+
+
+@media (max-width: 500px) {
+  #main {
+    width: 100vw;
+    height: 100vh;
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
+  } 
+
+  textarea {
+    width: 70vw;
+    margin-left: 8px;
+  }  
+
+  button {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
